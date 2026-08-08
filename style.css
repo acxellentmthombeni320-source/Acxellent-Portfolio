@@ -50,3 +50,19 @@ nav a:hover {
 .button:hover {
     opacity: 0.8;
 }
+
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
