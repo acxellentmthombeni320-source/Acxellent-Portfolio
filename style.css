@@ -66,3 +66,21 @@ nav a:hover {
     border-radius: 10px;
     text-align: center;
 }
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
